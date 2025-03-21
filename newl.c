@@ -3350,7 +3350,7 @@ main(int argc, char *argv[])
 			startup_cmd = optarg;
 		else if (c == 'd')
 			log_level = WLR_DEBUG;
-		else (c == 'v')
+		else if (c == 'v')
 			die("newl " VERSION);
 	}		
 	if (!getenv("XDG_RUNTIME_DIR"))
