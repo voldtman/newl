@@ -2,8 +2,6 @@
 
 newl is a suckless wayland compositor based on DWL that doesn't suck in its looks department. 
 
----
-
 ## Features
 
 - **Extended DWL Functionality:** newl builds on DWL and/or DWM’s familiar simplicity, with customizable animations for window movements and workspace transitions.
@@ -13,8 +11,6 @@ newl is a suckless wayland compositor based on DWL that doesn't suck in its look
 - **Customizable Gaps & Borders:** Easily modify gaps between windows and set distinct colors for borders, focused, and urgent windows.
 - **Comprehensive Input Support:** Fine-tune keyboard and trackpad settings for an optimized and responsive interaction experience.
 - **Extensible Key Bindings:** A highly configurable key-binding system lets you effortlessly manage window focus, layouts, and workspace assignments.
-
----
 
 ## Installation
 
@@ -28,8 +24,6 @@ sudo make install
 ```
 
 Be sure to review the [Installation Guide](https://github.com/voldtman/newl#installation) on our GitHub page for detailed instructions and dependencies.
-
----
 
 ## Configuration Guide
 
@@ -202,25 +196,20 @@ newl’s configuration is written in C and is designed for maximum simplicity an
   ```
   These settings control window movement and resizing with the mouse when combined with the modifier key.
 
----
-
 ## Contributing
 
 Contributions to newl are welcome! Please refer to our [CONTRIBUTING.md](https://github.com/voldtman/newl/blob/main/CONTRIBUTING.md) for guidelines on submitting patches, reporting issues, or suggesting improvements.
 
----
 
 ## Acknowledgements
 
 newl is inspired by and extends the functionalities of [dwl](https://codeberg.org/dwl/dwl). We gratefully acknowledge the DWL team for laying the foundation of a minimalist, extendable compositor, which served as the starting point for newl.
 
----
 
 ## License
 
 newl is released under the GPL-3 License. See the [LICENSE](https://github.com/voldtman/newl/blob/main/LICENSE) file for details.
 
----
 
 ## Additional Resources
 
